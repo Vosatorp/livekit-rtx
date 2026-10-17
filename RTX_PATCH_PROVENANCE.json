@@ -1,0 +1,14 @@
+{
+  "schemaVersion": 1,
+  "crate": "livekit",
+  "version": "0.8.3",
+  "upstreamRepository": "https://github.com/livekit/rust-sdks",
+  "upstreamCommit": "1a477bc422c6890537b3bcdb017f0ac094d49661",
+  "publishedArchive": "https://static.crates.io/crates/livekit/livekit-0.8.3.crate",
+  "publishedArchiveSha256": "5c9a22daebb6058be54653f1f6a02eae6a353f9986f73b4c68dc11365134d198",
+  "runtimeFile": "src/rtc_engine/rtc_session.rs",
+  "originalRuntimeSha256": "4245bc85aa8f2c188b6e12a61be7763326acf75788f915e3568dffd6ed770d13",
+  "patchedRuntimeSha256": "0bb4f398a7cf66411c666808ac980d929006c4adff244273297777229307b10e",
+  "runtimeDelta": "Retain advertised video/rtx capabilities after selecting the primary video codec.",
+  "runtimeAddedLines": 3
+}

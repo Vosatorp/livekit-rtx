@@ -1948,6 +1948,9 @@ impl SessionInner {
             }
 
             matched.append(&mut partial_matched);
+            matched.extend(unmatched.into_iter().filter(|codec| {
+                codec.mime_type.eq_ignore_ascii_case("video/rtx")
+            }));
 
             transceiver.set_codec_preferences(matched)?;
         }
